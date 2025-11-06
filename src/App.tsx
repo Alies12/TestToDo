@@ -15,7 +15,6 @@ export default function App() {
     editTodo,
     activeCount,
   } = useTodos();
-
   return (
     <div className="todo-app">
       <h1 className="todo-app__header">Список задач</h1>
